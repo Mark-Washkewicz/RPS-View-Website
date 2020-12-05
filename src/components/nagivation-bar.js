@@ -61,6 +61,7 @@ const StyledNavLink = styled(Link)`
 // Note: The NavigationBar component should only be used for up to 5 menu links
 const NavigationBar = ({ menuLinks }) => {
   return (
+  
     <StyledNav>
       {menuLinks.map((link, index) => (
         <StyledNavLink key={link.name} to={link.link} activeClassName="active">

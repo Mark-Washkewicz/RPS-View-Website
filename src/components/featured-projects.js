@@ -65,11 +65,11 @@ const StyledLinkContainer = styled.section`
     margin: 0 0.5rem;
   }
 `;
-const StyledArchiveContainer = styled.div`
-  ${flexCenter};
-  width: 100%;
-  margin-top: 2.5rem;
-`;
+// const StyledArchiveContainer = styled.div`
+//   ${flexCenter};
+//   width: 100%;
+//   margin-top: 2.5rem;
+// `;
 
 const FeaturedProjects = ({ featured }) => {
   const featuredProjects = featured.map((project, index) => {
@@ -109,7 +109,7 @@ const FeaturedProjects = ({ featured }) => {
             )}
             {demoLink && (
               <a href={demoLink} target="_blank" rel="noopener" title="Demo Link" aria-label={demoLinkLabel}>
-                <Icon icon="external-link-alt" />
+                <Icon icon="linkedin" prefix="fab" />
               </a>
             )}
           </StyledLinkContainer>
@@ -119,12 +119,12 @@ const FeaturedProjects = ({ featured }) => {
   });
 
   return (
-    <StyledSection id="projects">
+    <StyledSection id="team">
       <StyledH1>Featured Projects</StyledH1>
       {featuredProjects}
-      <StyledArchiveContainer>
-        <TextLink label="View More Projects" link="/projects" />
-      </StyledArchiveContainer>
+      {/* <StyledArchiveContainer>
+        {/* <TextLink label="View More Projects" link="/projects" /> */}
+      {/* </StyledArchiveContainer> */} 
     </StyledSection>
   );
 };

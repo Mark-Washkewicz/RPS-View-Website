@@ -1,23 +1,18 @@
 export const indexMenuLinks = [
   {
+    name: 'Downloads',
+    link: '/#downloads',
+    icon: 'download',
+  },
+  {
     name: 'About',
     link: '/#about',
     icon: 'user-tie',
   },
   {
-    name: 'Projects',
-    link: '/#projects',
-    icon: 'terminal',
-  },
-  {
-    name: 'Blog',
-    link: '/#blog',
+    name: 'Team',
+    link: '/#team',
     icon: 'feather-alt',
-  },
-  {
-    name: 'Contact',
-    link: '/#contact',
-    icon: 'envelope',
   },
 ];
 

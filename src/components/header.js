@@ -79,9 +79,9 @@ const StyledNavLink = styled(Link)`
 const Header = ({ menuLinks }) => (
   <StyledHeader>
     <StyledContainer>
-      <StyledHomeLink title="logo" to="/">
-        <StyledLogo />
-      </StyledHomeLink>
+      {/* <StyledHomeLink title="logo" to="/">
+        <StyledLogo /> */}
+      {/* </StyledHomeLink> */}
       <StyledNav>
         {menuLinks.map((link, index) => (
           <StyledNavLink key={link.name} to={link.link} activeClassName="active">

@@ -1,9 +1,10 @@
 ---
 featured: true
 date: '2019-12-22'
-title: 'Minesweeper'
+title: 'Joe Cheng'
 cover_image: './images/motherboard.jpg'
-repo_link: 'https://github.com/Knochenmark/minesweeper'
+repo_link: 'https://github.com/EtOh200'
+demo_link: 'https://www.linkedin.com/in/josephcheng-y/'
 techs: ['Typescript', 'React']
 ---
 
