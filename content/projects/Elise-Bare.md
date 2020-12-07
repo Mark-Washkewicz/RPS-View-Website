@@ -2,7 +2,7 @@
 featured: true
 date: '2019-12-15'
 title: 'Elise Bare'
-cover_image: './images/ocean.jpg'
+cover_image: './images/Elise-Bare.jpg'
 repo_link: 'https://github.com/elisebare'
 demo_link: 'https://www.linkedin.com/in/elisebare/'
 techs: ['Javascript', 'Html5', 'Css3', 'React']
