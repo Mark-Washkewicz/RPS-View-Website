@@ -3,16 +3,16 @@ cards:
   - label: Windows
     icon: windows
     prefix: fab
-    description: All posts, projects and sections are editable via Markdown files.
+    description: Download
   - label: Mac
     icon: apple
     prefix: fab
-    description: All theme colors and further properties are adjustable via Css Variables.
+    description: Download
   - label: Ubuntu
     icon: ubuntu
     prefix: fab
-    description: Navigation and Social links can be easily adjusted via config objects.
+    description: Download
 
 ---
 
-This Card-Grid component allows you to display predefined cards. You could use it like us and display features with it or you could also use it to display the services you provide for your customer. Go ahead and adjust the component to your own needs.
+Currently, RPS View supports Windows, Mac, and Ubuntu. As RPS View is in beta, the team is continuing to look into expanding our product to accomodate more operating systems....

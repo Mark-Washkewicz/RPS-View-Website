@@ -26,7 +26,7 @@ const Index = ({ data }) => {
     <Layout menuLinks={indexMenuLinks}>
       <SEO title="Home" />
       <Hero data={heroData} />
-      <CardGrid cards={data.cards.frontmatter.cards} description={data.cards.html} title="Our Features" id="downloads" />
+      <CardGrid cards={data.cards.frontmatter.cards} description={data.cards.html} title="Downloads" id="downloads" />
       <About data={data.about} />
       {/* <Facts/> */}
       <FeaturedProjects featured={data.featuredProjects.nodes} />

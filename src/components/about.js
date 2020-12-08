@@ -31,13 +31,16 @@ const About = ({ data }) => {
 
   return (
     <StyledSection id="about">
-      <StyledH1>About Me</StyledH1>
+      <StyledH1>About RPS View</StyledH1>
       <StyledAboutContainer>
         {image && (
           <StyledStaticImageContainer>
             <Img fluid={image} objectFit="contain" />
+            <br></br>
+            {/* <Img fluid={image} objectFit="contain" /> */}
           </StyledStaticImageContainer>
         )}
+        
         <div>
           <StyledH2>{title}</StyledH2>
           <StyledTextSection dangerouslySetInnerHTML={{ __html: html }} />

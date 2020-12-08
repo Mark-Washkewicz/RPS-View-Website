@@ -1,11 +1,9 @@
 ---
-title: 'The Gatsby starter that makes developer dreams come true!'
+title: 'An Innovative Approach to Reducing Terminal Overload With Redis Pub/Sub'
 about_image: './me.jpg'
-techs: ['Gatsby', 'Javascript', 'React', 'GraphQL', 'Emotion', 'Stylus']
+techs: ['Gatsby']
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas sit amet arcu tincidunt fermentum. Mauris ac nisl nibh. Etiam nunc eros, blandit vel eros laoreet, accumsan lacinia turpis.
+While Developing a website using Redis Pub/Sub, testing pub sub connections is often combersome and overbearing. As a developer using Pub/Sub you must choose between creating half of a website with either publishers or subscribers and testing the connections with a plethora or terminals, or you must create  publisher and subscriber functionality while blindly praying that when the pieces connect everything works.
 
-Phasellus ut sagittis eros. Curabitur quis libero consequat, iaculis dolor sollicitudin, ultricies ligula. Donec sodales sed ex a fermentum. Quisque vitae efficitur odio, non aliquam sapien.
-
-Proin egestas luctus ornare. Donec maximus est lobortis, pharetra dolor in, convallis lorem. Duis ut erat in lectus faucibus iaculis. In tincidunt laoreet ante, vel pellentesque risus lacinia eu.
+RPS View aims to be the middleman between the developer and redis. By leveraging the power of Websockets, RPS View allows developers to test all redis traffic in a simple to use, one-stop-shop graphical user interface.

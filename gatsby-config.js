@@ -1,11 +1,11 @@
 module.exports = {
   pathPrefix: '/gatsby-starter-level-2',
   siteMetadata: {
-    title: 'Level 2',
-    titleTemplate: '%s · Level 2',
+    title: 'RPS View',
+    titleTemplate: 'RPS View',
     image: '/images/logo.png',
-    author: 'TEAM RPS VIEW',
-    description: 'Gatsby starter to quickly setup your portfolio and boost it to the next level.',
+    author: 'RPS VIEW',
+    description: 'Redis PUB/SUB GUI for simpler interactions',
     url: 'https://github.com/oslabs-beta/RPS-View',
     paginationPageSize: 4, // Amount of posts displayed per listing page.
   },
