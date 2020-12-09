@@ -8,5 +8,5 @@ demo_link: 'https://www.linkedin.com/in/josephcheng-y/'
 techs: ['Typescript', 'React']
 ---
 
-Joe is software engineer passionate for optimization and efficiency.
+Joe is a software engineer passionate for optimization and efficiency.
 
