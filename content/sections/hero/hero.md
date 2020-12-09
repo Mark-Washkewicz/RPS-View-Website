@@ -1,6 +1,6 @@
 ---
 introduction: "Redis Pub/Sub GUI"
-tagline: 'Visualization Made Simple'
+tagline: 'Pub/Sub Made Simple'
 cta_label: 'View Documentation'
 cta_link: 'https://github.com/oslabs-beta/RPS-View'
 ---

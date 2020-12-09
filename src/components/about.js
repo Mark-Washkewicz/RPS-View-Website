@@ -6,6 +6,11 @@ import { mq } from './_shared/media';
 import { StyledH1, StyledH2 } from './_shared/styled-headings';
 import { StyledStaticImageContainer } from './_shared/styled-image-container';
 import { StyledSection } from './_shared/styled-section';
+import gif0 from '../images/connect1.gif'
+import gif1 from '../images/subscribeAndClone.gif'
+import gif2 from '../images/publishMessages.gif'
+var GifPlayer = require('react-gif-player');
+
 
 const StyledAboutContainer = styled.article`
   display: grid;
@@ -20,6 +25,12 @@ const StyledAboutContainer = styled.article`
 const StyledTextSection = styled.section`
   white-space: pre-line;
 `;
+// const StyledGif = {
+//   overflow: "hidden",
+//   borderStyle: "solid",
+//   border: "10px",
+//   borderColor: "Red",
+// }
 
 const About = ({ data }) => {
   const {
@@ -27,16 +38,21 @@ const About = ({ data }) => {
     html,
   } = data;
 
-  const image = about_image ? about_image.childImageSharp.fluid : null;
+  // const image = about_image ? about_image.childImageSharp.fluid : null;
 
   return (
     <StyledSection id="about">
       <StyledH1>About RPS View</StyledH1>
       <StyledAboutContainer>
-        {image && (
+        {<img class="gif" src={gif1}/> && (
           <StyledStaticImageContainer>
-            <Img fluid={image} objectFit="contain" />
+            <br></br><br></br>
+            <img className="gif" src={gif0}/>
             <br></br>
+            <br></br>
+            {/* <img className="gif" src={gif1}/> */}
+            <img className="gif" src={gif2}/>
+            
             {/* <Img fluid={image} objectFit="contain" /> */}
           </StyledStaticImageContainer>
         )}

@@ -5,7 +5,6 @@ title: 'Elise Bare'
 cover_image: './images/Elise-Bare.jpg'
 repo_link: 'https://github.com/elisebare'
 demo_link: 'https://www.linkedin.com/in/elisebare/'
-techs: ['Javascript', 'Html5', 'Css3', 'React']
+techs: []
 ---
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+Elise is a software engineer who loves solving problems. Check out her Github.

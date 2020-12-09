@@ -31,6 +31,7 @@ const StyledFeaturedProject = styled.article`
 const StyledProjectInfoContainer = styled.section`
   display: flex;
   flex-direction: column;
+  justify-content:center;
   position: relative;
 `;
 const StyledDescription = styled.section`
@@ -100,7 +101,8 @@ const FeaturedProjects = ({ featured }) => {
             <StyledH2>{title}</StyledH2>
           </StyledContentLink>
           <StyledDescription dangerouslySetInnerHTML={{ __html: project.html }} />
-          <TechList techs={project.frontmatter.techs} />
+          <div className="spread"></div>
+          {/* <TechList techs={project.frontmatter.techs} /> */}
           <StyledLinkContainer>
             {repoLink && (
               <a href={repoLink} target="_blank" rel="noopener" title="Repository Link" aria-label={repoLinkLabel}>
@@ -120,7 +122,7 @@ const FeaturedProjects = ({ featured }) => {
 
   return (
     <StyledSection id="team">
-      <StyledH1>Featured Projects</StyledH1>
+      <StyledH1>Meet the Team</StyledH1>
       {featuredProjects}
       {/* <StyledArchiveContainer>
         {/* <TextLink label="View More Projects" link="/projects" /> */}

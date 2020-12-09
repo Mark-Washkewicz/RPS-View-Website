@@ -54,14 +54,14 @@ const StyledFeatureDescription = styled.p`
   font-size: 0.8rem;
 `;
 
-const CardGrid = ({ cards, description, title, id = null }) => {
-  const featureCards = cards.map(({ icon, prefix, label, description }, index) => {
+const CardGrid = ({ cards, description, title, link, id = null }) => {
+  const featureCards = cards.map(({ icon, prefix, label, link, description }, index) => {
     return (
       <StyledFeatureCard key={index}>
         <Icon icon={icon} prefix={prefix} />
         <StyledCardLabel>{label}</StyledCardLabel>
         <StyledDivider></StyledDivider>
-        <StyledFeatureDescription>{description}</StyledFeatureDescription>
+        <StyledFeatureDescription><a href={link} target="_blank">{description}</a></StyledFeatureDescription>
       </StyledFeatureCard>
     );
   });
