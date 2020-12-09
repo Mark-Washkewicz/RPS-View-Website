@@ -9,7 +9,6 @@ import { StyledSection } from './_shared/styled-section';
 import gif0 from '../images/connect1.gif'
 import gif1 from '../images/subscribeAndClone.gif'
 import gif2 from '../images/publishMessages.gif'
-var GifPlayer = require('react-gif-player');
 
 
 const StyledAboutContainer = styled.article`
